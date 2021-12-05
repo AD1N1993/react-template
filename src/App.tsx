@@ -4,7 +4,7 @@ import Logo from './assets/images/reactLogo.svg';
 import ClickCounter from "./ClickCounter";
 
 const App = () => {
-    const num = 0;
+    const num = "Jasdasd";
     return (
         <>
             <h1>Hello React {process.env.NODE_ENV}{process.env.name}</h1>
