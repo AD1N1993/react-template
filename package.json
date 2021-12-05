@@ -1,0 +1,8 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AD1N1993/react-template.git",
+  "author": "Yury Grivickiy <y.grivickiy@webspace.by>",
+  "license": "MIT"
+}
