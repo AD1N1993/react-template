@@ -1,4 +1,17 @@
+import './styles.css';
+import ReactImage from './assets/images/react.png';
+import Logo from './assets/images/reactLogo.svg';
+import ClickCounter from "./ClickCounter";
+
 const App = () => {
-    return <h1>React TS W5</h1>
+    const num = 0;
+    return (
+        <>
+            <h1>Hello React {process.env.NODE_ENV}{process.env.name}</h1>
+            <img src={ReactImage} alt={'logo'} width={300} height={200}/>
+            <img src={Logo} alt={'logo'} width={300} height={300}/>
+            <ClickCounter/>
+        </>
+    )
 }
 export default App;
